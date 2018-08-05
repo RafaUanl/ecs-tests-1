@@ -40,7 +40,7 @@ public class MTax implements Constant {
                  errorList.add("El impuesto es obligatorio");
                }
 
-            } // End of the for
+            }
 
             if(cont<=0){
                 errorList.add("Debe de incluir al menos una tasa no local");
